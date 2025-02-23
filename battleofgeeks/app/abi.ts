@@ -712,8 +712,10 @@ export const bettingAbi = [
 ]
 
 export const bettingAddress = "0xe4560f2d41acb8572448ceab5d730dbfabf48906"
+// export const NFTAddress = "0x0a7c45a67bf455f04f986f76b8160b495215b86a"
 
-export const NFTAddress = "0x0a7c45a67bf455f04f986f76b8160b495215b86a"
+export const NFTAddress = "0xbBA6fe1420cf44920C0D9a4F453276264016A6CD"
+
 
 export const NFTAbi = [
 	{
