@@ -1,0 +1,10 @@
+"use client"
+
+import { useState } from "react"
+import { motion } from "framer-motion"
+import { Star, Shield, Sword, Scroll, Crown } from "lucide-react"
+import { GoogleGenerativeAI } from "@google/generative-ai"
+import { useAccount, useWriteContract,useReadContract } from "wagmi"
+import { tokenAbi, tokenAddress,NFTAbi,NFTAddress } from "../abi"
+import { config } from "../wagmi"
+import { waitForTransactionReceipt } from "@wagmi/core"
